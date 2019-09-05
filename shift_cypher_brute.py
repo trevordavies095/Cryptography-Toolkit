@@ -9,8 +9,8 @@ letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 # Open file, no error checking cause I'm a bad programmer
 with open(sys.argv[1]) as f:
 	
-	# Convert the file into a string, remove spaces because we don't care
-	data = f.read().strip().replace(" ", "").strip()
+	# Convert the file into a string
+	data = f.read().strip().strip()
 
 	# For every letter in the alphabet
 	for key in range(len(letters)):
