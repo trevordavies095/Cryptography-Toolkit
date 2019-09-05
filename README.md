@@ -9,4 +9,4 @@ Used for a frequency analysis attack on a substitution cipher. You can compare t
 ## shift_cipher_brute.py
 You can use this script to brute force a shift cipher.
 
-`python shift_cipher_brute.py`
+`python shift_cipher_brute.py cipher_text.txt`
