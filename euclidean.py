@@ -1,3 +1,7 @@
+# File	: euclidean.py
+# Author: Trevor Davies
+# Date	: September 20th, 2019
+
 import sys
 
 
